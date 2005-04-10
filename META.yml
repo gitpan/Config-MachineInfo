@@ -1,0 +1,38 @@
+--- #YAML:1.0
+name: Config-MachineInfo
+version: 0.01
+author:
+  - Sagar R. Shah <sagarshah@softhome.net>
+abstract: The great new Config::MachineInfo!
+license: perl
+requires:
+  POSIX: 0
+  Test::More: 0
+  Unix::Processors: 0
+provides:
+  Config::MachineInfo:
+    file: lib/Config/MachineInfo.pm
+    version: 0.01
+  Config::MachineInfo::ClockSpeed:
+    file: lib/Config/MachineInfo/ClockSpeed.pm
+  Config::MachineInfo::Distribution:
+    file: lib/Config/MachineInfo/Distribution.pm
+  Config::MachineInfo::Hostid:
+    file: lib/Config/MachineInfo/Hostid.pm
+  Config::MachineInfo::Hostname:
+    file: lib/Config/MachineInfo/Hostname.pm
+  Config::MachineInfo::IpAddress::Linux:
+    file: lib/Config/MachineInfo/IpAddress/Linux.pm
+  Config::MachineInfo::KeepAlive::Linux:
+    file: lib/Config/MachineInfo/KeepAlive/Linux.pm
+  Config::MachineInfo::Metric:
+    file: lib/Config/MachineInfo/Metric.pm
+  Config::MachineInfo::NumCPUs:
+    file: lib/Config/MachineInfo/NumCPUs.pm
+  Config::MachineInfo::OS:
+    file: lib/Config/MachineInfo/OS.pm
+  Config::MachineInfo::SimpleMetric:
+    file: lib/Config/MachineInfo/SimpleMetric.pm
+  Config::MachineInfo::Uptime:
+    file: lib/Config/MachineInfo/Uptime.pm
+generated_by: Module::Build version 0.2609

@@ -1,0 +1,18 @@
+Build.PL
+Changes
+lib/Config/MachineInfo.pm
+lib/Config/MachineInfo/ClockSpeed.pm
+lib/Config/MachineInfo/Distribution.pm
+lib/Config/MachineInfo/Hostid.pm
+lib/Config/MachineInfo/Hostname.pm
+lib/Config/MachineInfo/IpAddress/Linux.pm
+lib/Config/MachineInfo/KeepAlive/Linux.pm
+lib/Config/MachineInfo/Metric.pm
+lib/Config/MachineInfo/NumCPUs.pm
+lib/Config/MachineInfo/OS.pm
+lib/Config/MachineInfo/SimpleMetric.pm
+lib/Config/MachineInfo/Uptime.pm
+MANIFEST			This list of files
+META.yml
+README
+t/01_distribution.t
